@@ -1,7 +1,4 @@
-@font-face {
-	font-family: pixel;
-	src: url(../fonts/pixel.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 html {
 	height: 100%;
@@ -21,7 +18,7 @@ body {
 }
 
 a {
-	font-family: pixel;
+	font-family: "Press Start 2P", cursive;
 	text-decoration: none;
 }
 
@@ -85,7 +82,7 @@ a {
 }
 
 .jugar {
-	font-family: pixel;
+	font-family: "Press Start 2P", cursive;
 	font-size: 40px;
 	text-decoration: none;
 	color: black;
@@ -114,7 +111,7 @@ a {
 }
 
 p {
-	font-family: pixel;
+	font-family: "Press Start 2P", cursive;
 	font-size: 20px;
 	text-align: center;
 	display: flex;
