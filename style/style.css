@@ -1,0 +1,188 @@
+@font-face {
+	font-family: pixel;
+	src: url(../fonts/pixel.ttf);
+}
+
+html {
+	height: 100%;
+}
+
+header {
+	margin-top: 1.5%;
+	text-align: center;
+}
+
+body {
+	background-image: url("../images/background.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a {
+	font-family: pixel;
+	text-decoration: none;
+}
+
+.hvr-grow {
+	display: inline-block;
+	vertical-align: middle;
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	transform: scale(1.1);
+}
+
+/* --------------------------------MAIN MENU------------------------------ */
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 200px;
+}
+
+.hero-logo {
+	height: 200px;
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.uquito {
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.flotar {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	0% {
+		transform: translate(0, 0px);
+	}
+	50% {
+		transform: translate(0, 15px);
+	}
+	100% {
+		transform: translate(0, -0px);
+	}
+}
+
+.boton {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.jugar {
+	font-family: pixel;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+	border: rgb(255, 255, 255) 1px solid;
+	border-radius: 15px;
+	padding: 15px 30px;
+	background-color: white;
+	box-shadow: 0px 0px 20px 0px #ffffff;
+}
+
+.jugar:hover {
+	transition: all 0.5s 0s ease;
+}
+
+/* ----------------------------INFO--------------------------- */
+
+.info-container {
+	width: 800px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.816);
+	border: white 4px solid;
+	border-radius: 20px;
+	padding: 2%;
+	margin-top: 5%;
+	box-shadow: 0px 0px 20px 0px #000000;
+}
+
+p {
+	font-family: pixel;
+	font-size: 20px;
+	text-align: center;
+	display: flex;
+	color: white;
+	line-height: 1.6;
+}
+
+.empezar {
+	color: black;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	border: rgb(255, 255, 255) 1px solid;
+	border-radius: 15px;
+	padding: 15px 30px;
+	background-color: white;
+	box-shadow: 0px 0px 20px 0px #ffffff;
+	text-align: center;
+}
+
+/* ------------------------JUEGO-------------------------- */
+
+.contenedor-texto {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	background-color: rgba(0, 0, 0, 0.816);
+	border: white 4px solid;
+	border-radius: 20px;
+	padding: 2%;
+	box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.texto-aventura {
+	text-align: left;
+}
+
+.opcion1 {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+
+.opcion2 {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+
+.contendor-opciones {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.imagen {
+	height: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.wrapper {
+	margin-top: 4%;
+	display: flex;
+	justify-content: space-evenly;
+}
