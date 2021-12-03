@@ -7,10 +7,123 @@ html {
 header {
 	margin-top: 1.5%;
 	text-align: center;
+	filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
 }
 
 body {
-	background-image: url("../images/background.png");
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.background-room {
+	background-image: url("../images/background-room.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.calle {
+	background-image: url("../images/calle.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.konbini {
+	background-image: url("../images/kobini.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.konbini-interior {
+	background-image: url("../images/konbini-interior.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.terrazas-colectivo {
+	background-image: url("../images/terrazas-colectivo.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.terrazas {
+	background-image: url("../images/terrazas.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.terrazas-interior {
+	background-image: url("../images/terrazas-interior.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.terrazas-carrefour {
+	background-image: url("../images/terrazas-carrefour.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.colectivo-interior {
+	background-image: url("../images/colectivo-interior.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.background-bano {
+	background-image: url("../images/background-bano.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.background-room-bw {
+	background-image: url("../images/background-room-bw.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.prision {
+	background-image: url("../images/prision.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.jojo {
+	background-image: url("../images/jojo-background.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.cocina {
+	background-image: url("../images/cocina.png");
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
